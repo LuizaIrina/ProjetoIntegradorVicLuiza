@@ -1,0 +1,82 @@
+//https://api.themoviedb.org/3/movie/385128?api_key=uuu&language=pt-BR
+{
+  "adult": false,
+  "backdrop_path": "/gGTCDNEvwG848u34Op1nZNALLUr.jpg",
+  "belongs_to_collection": {
+    "id": 9485,
+    "name": "Coletânea Velozes e Furiosos",
+    "poster_path": "/zQdytnqfsWKJlqazqfMBL2L7aql.jpg",
+    "backdrop_path": "/gC9BUFiROWtaMsluGYziZ6lR4OJ.jpg"
+  },
+  "budget": 200000000,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Ação"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    }
+  ],
+  "homepage": "https://www.thefastsaga.com",
+  "id": 385128,
+  "imdb_id": "tt5433138",
+  "original_language": "en",
+  "original_title": "F9",
+  "overview": "Dominic Toretto e sua família precisam enfrentar o seu irmão mais novo Jakob, um assassino mortal que está trabalhando com uma antiga inimiga, a cyber-terrorista Cipher.",
+  "popularity": 6347.342,
+  "poster_path": "/8L4Mep3KDUK4ztUgf2HlPvUVzZy.jpg",
+  "production_companies": [
+    {
+      "id": 333,
+      "logo_path": "/5xUJfzPZ8jWJUDzYtIeuPO4qPIa.png",
+      "name": "Original Film",
+      "origin_country": "US"
+    },
+    {
+      "id": 1225,
+      "logo_path": "/rIxhJMR7oK8b2fMakmTfRLY2TZv.png",
+      "name": "One Race",
+      "origin_country": "US"
+    },
+    {
+      "id": 34530,
+      "logo_path": null,
+      "name": "Perfect Storm Entertainment",
+      "origin_country": "US"
+    },
+    {
+      "id": 154215,
+      "logo_path": null,
+      "name": "ZXY MOVIES",
+      "origin_country": ""
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "release_date": "2021-05-19",
+  "revenue": 641742615,
+  "runtime": 145,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Released",
+  "tagline": "Todos os caminhos levam a isso.",
+  "title": "Velozes & Furiosos 9",
+  "video": false,
+  "vote_average": 7.8,
+  "vote_count": 1863
+}
