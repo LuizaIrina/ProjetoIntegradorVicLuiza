@@ -9,3 +9,7 @@ data class MovieCast (
     )
 //cada Movie tem uma lista de MovieCast, de 4 (ou mais?) objetos
 
+data class ResponseMovieCast (
+    val id: Int,
+    val cast: List<MovieCast>
+    )

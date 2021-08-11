@@ -1,12 +1,12 @@
-package com.example.projetointegradorvicluiza
+package com.example.projetointegradorvicluiza.features.moviedetail
 
-data class Movie(
-    val adult: Boolean,
+import com.example.projetointegradorvicluiza.MovieGenre
+
+data class MovieDetail(
     val backdrop_path: String,
-    val genre_ids: List<Int>,
+    val genres: List<MovieGenre>,
     val id: Int,
     val overview: String,
-    val poster_path: String,
     val release_date: String,
     val title: String,
     val vote_average: Float
@@ -14,9 +14,4 @@ data class Movie(
     //val name: String,
     //val id: String,
     //val image: String
-)
-
-data class ResponseList(
-    val page: Int,
-    val results: List<Movie>
 )
