@@ -42,7 +42,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
     var idGenersChoosed : MutableList<Int> = mutableListOf()
     intent.getStringExtra(CHOOSED_GENERS_ID)?.let { idGenersChoosed.add(it.toInt()) }
 
-    getMoviesFilteredGenre(idGenersChoosed[0].toString())
+    //getMoviesFilteredGenre(idGenersChoosed[0].toString())
 
 }
 
