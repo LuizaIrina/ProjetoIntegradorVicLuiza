@@ -8,7 +8,7 @@
     <ImageView
         android:id="@+id/backdropMovie"
         android:layout_width="match_parent"
-        android:layout_height="290dp"
+        android:layout_height="270dp"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -16,29 +16,39 @@
 
     <TextView
         android:id="@+id/titleMovie"
-        android:layout_width="185dp"
-        android:layout_height="70dp"
-        android:text="TITLE"
-        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/titleMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:text="MOVIE TITLE"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/backdropMovie" />
 
     <TextView
         android:id="@+id/subtitleOverview"
+        style="@style/subtitleOverviewCast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
         android:text="Sinopse"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleMovie" />
 
 
     <TextView
         android:id="@+id/overviewMovie"
-        android:layout_width="334dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="28dp"
+        style="@style/textDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
         android:text="OVERVIEW"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -47,11 +57,13 @@
 
     <TextView
         android:id="@+id/subtitleCast"
+        style="@style/subtitleOverviewCast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
         android:text="Elenco"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/overviewMovie" />
@@ -69,6 +81,7 @@
 
     <TextView
         android:id="@+id/nameActor1"
+        style="@style/textDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -80,6 +93,7 @@
 
     <TextView
         android:id="@+id/chActor1"
+        style="@style/textDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -101,6 +115,7 @@
 
     <TextView
         android:id="@+id/nameActor2"
+        style="@style/textDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -112,6 +127,7 @@
 
     <TextView
         android:id="@+id/chActor2"
+        style="@style/textDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -133,6 +149,7 @@
 
     <TextView
         android:id="@+id/nameActor3"
+        style="@style/textDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -144,6 +161,7 @@
 
     <TextView
         android:id="@+id/chActor3"
+        style="@style/textDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -166,6 +184,7 @@
 
     <TextView
         android:id="@+id/nameActor4"
+        style="@style/textDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -177,6 +196,7 @@
 
     <TextView
         android:id="@+id/chActor4"
+        style="@style/textDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"

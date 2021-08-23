@@ -18,7 +18,7 @@ const val CHOOSED_MOVIE_ID = "com.example.projetointegradorvicluiza.ID"
 public class MoviesAdapter(var context: Context, var dataset: MutableList<MovieList> = mutableListOf()) : RecyclerView.Adapter<MoviesAdapter.MoviesViewHolder>() {
     inner class MoviesViewHolder(view: View) : RecyclerView.ViewHolder(view){
         val nameMovie: TextView = view.findViewById(R.id.nameMovie)
-        val idMovie: TextView = view.findViewById(R.id.idMovie)
+        //val idMovie: TextView = view.findViewById(R.id.idMovie)
         val moviePoster: ImageButton = view.findViewById(R.id.moviePoster)
 
     }
@@ -30,7 +30,7 @@ public class MoviesAdapter(var context: Context, var dataset: MutableList<MovieL
 
     override fun onBindViewHolder(holder: MoviesViewHolder, position: Int) {
         holder.nameMovie.text = dataset[position].title
-        holder.idMovie.text = dataset[position].id.toString()
+        //holder.idMovie.text = dataset[position].id.toString()
 
         holder.moviePoster.loadMovieImage(dataset[position].poster_path)
         holder.moviePoster.setOnClickListener{

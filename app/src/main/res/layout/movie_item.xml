@@ -19,6 +19,7 @@
 
     <TextView
         android:id="@+id/nameMovie"
+        style="@style/titleMovie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="33dp"
@@ -29,7 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/moviePoster"
         app:layout_constraintVertical_bias="0.071" />
 
-    <TextView
+    <!--<TextView
         android:id="@+id/idMovie"
         android:layout_width="53dp"
         android:layout_height="20dp"
@@ -39,5 +40,5 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.698" />
+        app:layout_constraintVertical_bias="0.698" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>
